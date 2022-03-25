@@ -1,0 +1,23 @@
+.info{
+    display: flex;
+    &_texto{
+        background-color: $fondos;
+        p{
+            color: $letras;
+        }
+        
+    }
+    &_imagen{
+        width: 50vw;
+        &--foto{
+            border-radius: 70px;
+            &:hover{
+                transform: scale(90%);
+                transition: 1s;
+            }
+        }
+    }
+    @media screen and (max-width:768px){
+        flex-direction: column;
+    }
+}

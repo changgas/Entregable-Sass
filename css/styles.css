@@ -1,1 +1,45 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info_texto {
+  background-color: #EFFFFD;
+}
+
+.info_texto p {
+  color: #42C2FF;
+}
+
+.info_imagen {
+  width: 50vw;
+}
+
+.info_imagen--foto {
+  border-radius: 70px;
+}
+
+.info_imagen--foto:hover {
+  -webkit-transform: scale(90%);
+          transform: scale(90%);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
